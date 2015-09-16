@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <meta charset="utf-8">
+    <title>Music City Code</title>
+  </head>
+  
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+
+
+    <div class="container-fluid">  
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
+            <ul class=" nav navbar-nav navbar-middle">
+              <li><a href="/#/">Home</a></li>
+              <li><a href="/#/speakers">Speakers</a></li>
+              <li><a href="/#/sessions">Sessions</a></li>
+              <li><a href="/#/sponsors">Sponsors</a></li>
+              <li><a href="/#/geekjam">Geek Jam</a></li>
+              <li><a href="/#/gallery">Gallery</a></li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://www.squadup.com/events/music-city-code-2015  ">Tickets!</a></li>
+              <li><a href="#">Log In</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    <div class="wrapper fullwidth"></div>
+    <div ng-view></div>
+    </div>    
+
+  <script data-main="app/require-config" src="lib/bower_components/requirejs/require.js"></script>
+
+<!--   // <script src="lib/bower_components/requirejs/require.js"></script>
+  // <script src="main-built.js" ></script> -->
+  </body>
+  <br>
+  <br>
+  <footer class="footer-distributed center">
+    <div class="footer-left">
+      <p class="footer-links">
+      <a href="/#/meetthecrew">Meet The Crew</a>·
+      <a href="/#/contactus">Contact Us</a>·
+      <a href="/#/missionstatement">Mission Statement</a>·
+      <br><br>
+      <div class="fb-like" data-href="https://www.facebook.com/MusicCityCode" data-layout="button" data-action="like" data-show-faces="false" data-share="false">
+      </div>
+      <br>
+      <br>
+      <a href="https://twitter.com/MusicCityCode" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @MusicCityCode</a>
+      <br>
+
+      </p>
+      <p>Music City Code © 2015</p>
+    </div>
+    </footer>
+</html>

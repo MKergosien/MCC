@@ -1,0 +1,92 @@
+.wrapper {
+  background-image: url(../images/MCCstagewide.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 400px;
+}
+
+body{
+  background-image: url(../images/abstract_background.jpg); 
+  background-size: 100% 100%;
+}
+
+.geekimage{
+  background-image: url(../images/geekjam.jpg);
+}
+
+.navbar-default {
+  background-color: Black;
+  padding: 20px 20px 20px 20px;
+}
+
+.navbar-default .navbar-nav> li > a {
+  color: white; /*Change text color here*/
+  font-size: 35px;
+    }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav{
+  color: DarkSlateBlue;  /*Text hover color on navbar*/
+}
+
+.navbar-default .navbar-brand:hover{
+  color: DarkSlateBlue;  /*Home hover color*/
+}
+
+.center{
+  text-align: center;
+}   
+
+.title{
+  color: DarkSlateBlue;
+  box-shadow: 10%;
+}
+
+.left{
+  background-color: gainsboro; 
+  color: DarkStaleGray; 
+  box-shadow: 10px 5px 5px black;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.right{
+  background-color: gainsboro; 
+  color: DarkStaleGray;
+  box-shadow: 10px 5px 5px black;
+  margin: 20px 20px 20px 20px;
+   padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.row-eq-height {
+ display: -webkit-box;
+ display: -webkit-flex;
+ display: -ms-flexbox;
+ display:         flex;
+}
+
+
+.fullwidth{
+  width: 100%;
+}
+
+.medwidth{
+  width: 50%;
+}
+
+.shortwidth{
+  width: 25%;
+}
+.range{
+  width: 80%;
+}
+
+.container {
+      width: 500px;
+      clear: both;
+  }
+
+.container input {
+      width: 90%;
+      clear: both;
+  }
