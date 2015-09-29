@@ -1,40 +1,48 @@
 <div class="container-fluid">
   <div class="row row-eq-height">
-    <div class="col-md-4 left container center">
+    <div class="col-md-4 lt">
       <form action="#" method="POST">
         <fieldset>
-        <br>  
-        <legend><h1><strong class="title">Submit A Talk!</strong></h1></legend>
-        <label for="first_name"><h3><strong>First Name:</strong></h3></label>
-        <input type="text" name="first_name" id="first_name">
-        <br>
-        <label for="last_name"><h3><strong>Last Name:</strong></h3></label>
-        <input type="text" name="last_name" id="last_name">
-        <br>
-        <label for="tw_handle"><h3><strong>Twitter Handle:</strong></h3></label>
-        <input type="text" name="tw_handle" id="tw_handle">
-        <br>
-        <label for="title"><h3><strong>Title:</strong></h3></label>
-        <input type="text" name="title" id="title">
-        <br>
-        <label for="topic_desc"><h3><strong>Description:</strong></h3></label>
-        <input type="text" name="topic_desc" id="topic_desc">
-        <br>
-        <label for="speaker_bio"><h3><strong>Speaker Bio:</strong></h3></label>
-        <input type="text" name="speaker_bio" id="speaker_bio">
-
-
-      </fieldset>
+          <br>  
+          <legend><h1><strong class="title">Submit A Talk!</strong></h1></legend>
+          <label for="first_name"><h3><strong>First Name:</strong></h3></label>
+          <input type="text" name="first_name" id="first_name">
+          <br>
+          <label for="last_name"><h3><strong>Last Name:</strong></h3></label>
+          <input type="text" name="last_name" id="last_name">
+          <br>
+          <label for="tw_handle"><h3><strong>Twitter Handle:</strong></h3></label>
+          <input type="text" name="tw_handle" id="tw_handle">
+          <br>
+          <label for="title"><h3><strong>Title:</strong></h3></label>
+          <input type="text" name="title" id="title">
+          <br>
+          <label for="topic_desc"><h3><strong>Description:</strong></h3></label>
+          <input type="text" name="topic_desc" id="topic_desc">
+          <br>
+          <label for="speaker_bio"><h3><strong>Speaker Bio:</strong></h3></label>
+          <input type="text" name="speaker_bio" id="speaker_bio">
+        </fieldset>
       </form>
       <br>
       <button>Submit</button>
     </div>
 
-    <div class="col-md-8 right">
-      <fieldset>
-          <legend><h1><strong class = "title">Meet Our 2015 Speakers!</strong></h1></legend>
-      </fieldset>    
- 
+    <div class="col-md-8 rt">
+      <div class="col-md-12">
+        <fieldset>
+          <legend class="title center"><h1><strong>Speakers</strong></h1></legend>
+          <div class="crewstyle center" ng-repeat=" speaker in Speakers">
+            <ul>
+              <div back-img="{{speaker.image}}"></div>
+              <li><h3>{{speaker.name}}</h3></li>
+              <li><h4>{{speaker.topic}}</h4></li>
+              <li><h4><a href="https://twitter.com/{{speaker.handle}}" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">FOLLOW</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></h4></li>
+            </ul>
+          </div>
+        </fieldset>  
+      </div>
     </div>
-  </div>
+  </div>  
 </div>

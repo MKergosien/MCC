@@ -1,7 +1,8 @@
 define([
   'angular',
+  'firebase',
   'angularRoute'
-], function(angular) {
+], function(angular, firebase) {
   angular.module('MCCApp.CrewCtrl', ['ngRoute'])
   .config(['$routeProvider', function($routeProvider) {
 
@@ -10,7 +11,11 @@ define([
         controller: 'CrewCtrl'
     });
   }])
-  .controller('CrewCtrl', ["$scope", "$q", "$firebaseObject", "$routeParams", function($scope, $q, $firebaseObject, $routeParams) {
+  .controller('CrewCtrl', ["$scope", "$q", "$firebaseArray", "$routeParams", function($scope, $q, $firebaseArray, $routeParams) {
     
+      var ref = new Firebase("http://musiccitycode.firebaseio.com/Crew");
+
+      $scope.Crew = $firebaseArray(ref);
+
   }]);
 });

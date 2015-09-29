@@ -1,10 +1,20 @@
 <div class="container-fluid">
   <div class="row row-eq-height">
-    <div class="col-md-12 right center">
+    <div class="col-md-12 rt">
       <fieldset>
-        <legend><h2 class="title"><strong>Meet The Crew!</strong></h2></legend>
-
+        <legend><h2 class="title center"><strong>Meet The Crew!</strong></h2></legend>
+        <div class="crewstyle" ng-repeat=" member in Crew">
+          <ul >
+            <li><img ng-src="{{member.image}}" height="250px" width= "250px"></li>
+            <li><h3>{{member.name}}</h3></li>
+            <li><h4>{{member.title}}</h4></li>
+            <li><h4>{{member.email}}</h4></li>
+              <li><h4><a href="https://twitter.com/{{member.handle}}" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">FOLLOW</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></h4></li>
+          </ul>
+        </div> 
       </fieldset>
     </div>    
   </div>
 </div>
+

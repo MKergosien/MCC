@@ -1,0 +1,189 @@
+{
+    "Crew": [
+
+        {
+            "name": "Gaines Kergosien",
+            "title": "Rrganizer",
+            "email": "president@musiccitycode.com",
+            "handle": "@GainesK",
+            "image": "https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1456036_10152081716524439_522838127_n.jpg?oh=38f4ae7182e1d24cae8ef3e687571cc3&oe=566C697A"
+        },
+
+        {
+            "name": "Mary Kergosien",
+            "title": "Marketing Director",
+            "email": "marketing@musiccitycode.com",
+            "handle": "@MEKergosien",
+            "image": "https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11695908_754961764613381_7218290321402113940_n.jpg?oh=08958ff152487bc1abd14803d152e7dd&oe=569A3523"
+        },
+
+        {
+            "name": "David Payne",
+            "title": "Production Director",
+            "email": "production@musiccitycode.com",
+            "handle": "TBD",
+            "image": "https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/11203174_10206433293890645_1640451613050740812_n.jpg?oh=c80bdf9fa47894b513a5affc1f29009a&oe=566DB04B"
+        },
+
+        {
+            "name": "Deanna Vickers",
+            "title": "Volunteer Director",
+            "email": "volunteers@musiccitycode.com",
+            "handle": "@Deanna2000",
+            "image": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/11917492_10153509020963614_2132308098962627428_n.jpg?oh=08f471f75c6b2373f85a19fc6ed1654c&oe=56607801"
+        },
+
+        {
+            "email": "info@musiccitycode.com",
+            "handle": "TBD",
+            "image": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/603721_10201034146398114_1619077600_n.jpg?oh=2899291e4f6a3c3ef0cc0ef37ad46d8c&oe=56A31707",
+            "name": "Charles Austin Humphreys",
+            "title": "Facilities Director"
+
+        }
+    ],
+
+    "Speakers": [
+        {
+            "name": "Michael C. Neel",
+            "image": "https://pbs.twimg.com/profile_images/642099637902512128/B-Lb3gdI.jpg",
+            "topic": "Game Development with Unity",
+            "handle": "@ViNull"
+        },
+
+        {
+            "name": "Gregory A. Beamer ",
+            "image": "https://scontent-atl3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10464161_10205892350814196_8673082610241880653_n.jpg?oh=8762b3c1aacb745b8e8517a0e0d5e5f7&oe=569B073C",
+            "topic": "Microservices, Silver Bullet or Hot Air",
+            "handle": "@gbworld"
+
+        },
+
+         {
+            "name": "Jonathan Mills",
+            "image": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-frc3/t31.0-8/10320955_10202809549697400_8552624218028872461_o.jpg",
+            "topic": "Managing Developers",
+            "handle": "@jonathanfmills"
+
+        },
+
+         {
+            "name": "Jeremy McDuffie",
+            "image": "https://pbs.twimg.com/profile_images/620632601829617664/WWlkxirU.jpg",
+            "topic": "Component-Based CSS Architecture",
+            "handle": "@jmmcduffie"
+
+        },
+
+         {
+            "name": "Nathan Kelley",
+            "image": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/482492_591719514171477_66037300_n.jpg?oh=ee5daa869f278a736ef719648522fc78&oe=565D3D79",
+            "topic": "The Three Great Virtues of a Programmer: How to make Laziness, Impatience, and Hubris Work For You",
+            "handle": "@n8osapi"
+
+        },
+
+         {
+            "name": "Tommy Norman",
+            "image": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-ash2/v/t1.0-9/1003035_10201022149649843_1650867669_n.jpg?oh=472558f1d16e9aa476ed013b99d081e0&oe=56687E7F",
+            "topic": "Practical Adventures in Software Craftsmanship",
+            "handle": "@tommynorman"
+
+        },
+
+         {
+            "name": "Chris Riesgo",
+            "image": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-ash2/v/t1.0-9/559422_10100323499890486_412465875_n.jpg?oh=06ac598396c70fd619bd7e8731825ebc&oe=569CC7B0https://scontent-iad3-1.xx.fbcdn.net/hphotos-ash2/v/t1.0-9/559422_10100323499890486_412465875_n.jpg?oh=06ac598396c70fd619bd7e8731825ebc&oe=569CC7B0",
+            "topic": "Making Mobile Click...",
+            "handle": "@chrisriesgo"
+
+        },
+
+         {
+            "name": "Ondrej Balas",
+            "image": "https://pbs.twimg.com/profile_images/460574464405549056/pCANliDv.jpeg",
+            "topic": "Monetize Yourself",
+            "handle": "@ondrejbalas"
+
+        },
+
+         {
+            "name": "Lee Brandt",
+            "image": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/168628_1789824954211_1500470_n.jpg?oh=6e0af2400f37cc624e05f2bb1f8947ec&oe=56A210EF",
+            "topic": "Will The ReAL ReST Please Stand Up?",
+            "handle": "@leebrandt"
+
+        },
+
+         {
+            "name": "Elijah Manor",
+            "image": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/11667505_10153335418702906_8798907026748481589_n.jpg?oh=35fbcbf388c8773dd2d578df974b277a&oe=56A0D804",
+            "topic": "Eliminate JavaScript Code Smells",
+            "handle": "@elijahmanor"
+
+        },
+
+         {
+            "name": "David Neal",
+            "image": "https://pbs.twimg.com/profile_images/595645964943290369/rqAQAze_.png",
+            "topic": "Node.js Crash Course",
+            "handle": "@reverentgeek"
+
+        },
+
+         {
+            "name": "Elijah Manor",
+            "image": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/11667505_10153335418702906_8798907026748481589_n.jpg?oh=35fbcbf388c8773dd2d578df974b277a&oe=56A0D804",
+            "topic": "CSS for Developers",
+            "handle": "@elijahmanor"
+
+        },
+
+         {
+            "name": "Dan Linn",
+            "image": "https://pbs.twimg.com/profile_images/628440942496759809/aS6q09zL.jpg",
+            "topic": "Overcoming Imposter Syndrome",
+            "handle": "@danlinn"
+
+        },
+
+         {
+            "name": "Rachel Reese",
+            "image": "https://pbs.twimg.com/profile_images/2316766323/obsm3vr83jz7vhwneta1.jpeg",
+            "topic": "Patterns and Practices for Real-World Event-Driven Microservices",
+            "handle": "@rachelreese"
+
+        },
+
+         {
+            "name": "Jeremy Fairbank",
+            "image": "https://pbs.twimg.com/profile_images/480459312846761984/hRqVVgKc.jpeg",
+            "topic": "ES7 (JavaScript) and Beyond!",
+            "handle": "@elpapapollo"
+
+        }
+
+    ],
+
+    "Sponsors": [
+        {
+
+            "name": "Tek Systems",
+            "image": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xla1/v/t1.0-9/156072_834520933267180_2730445787433150308_n.jpg?oh=e416c541def38447b4deb9a8c8cba8cb&oe=56A24455",
+            "level": "Silver"
+        }    
+
+    ],
+
+    "Sessions":[
+        {
+
+            "name": "Jeremy Fairbank",
+            "topic": "ES7 (JavaScript) and Beyond!",
+            "Description": ""
+        } 
+
+    ]
+
+
+}

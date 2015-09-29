@@ -1,17 +1,27 @@
-.wrapper {
-  background-image: url(../images/MCCstagewide.png);
+.navphoto {
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 400px;
+  background-size: 100%;
+  height: 7%;
+  width: 7%;
 }
 
 body{
+  padding-top: 80px;
   background-image: url(../images/abstract_background.jpg); 
   background-size: 100% 100%;
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
 }
 
-.geekimage{
-  background-image: url(../images/geekjam.jpg);
+.partial{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.smallform{
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid black;
+  background-color: white;
 }
 
 .navbar-default {
@@ -20,16 +30,13 @@ body{
 }
 
 .navbar-default .navbar-nav> li > a {
+  font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
   color: white; /*Change text color here*/
   font-size: 35px;
     }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav{
-  color: DarkSlateBlue;  /*Text hover color on navbar*/
-}
-
-.navbar-default .navbar-brand:hover{
-  color: DarkSlateBlue;  /*Home hover color*/
+  color: forestgreen;  /*Text hover color on navbar*/
 }
 
 .center{
@@ -37,25 +44,26 @@ body{
 }   
 
 .title{
-  color: DarkSlateBlue;
+  color: black;
   box-shadow: 10%;
 }
 
-.left{
-  background-color: gainsboro; 
-  color: DarkStaleGray; 
-  box-shadow: 10px 5px 5px black;
-  margin: 20px 20px 20px 20px;
-  padding: 10px 10px 10px 10px;
+.lt{
+  margin: 15px;
+  padding: 10px;
+  color: DarkStaleGray;
+  float: left;
+  border: 2px solid black;
+  background-color: white;
 }
 
-.right{
-  background-color: gainsboro; 
+.rt{
+  background-color: white; 
   color: DarkStaleGray;
   box-shadow: 10px 5px 5px black;
-  margin: 20px 20px 20px 20px;
-   padding: 10px 10px 10px 10px;
-  text-align: center;
+  margin: 15px;
+  padding: 10px;
+  border: 2px solid black;
 }
 
 .row-eq-height {
@@ -82,7 +90,6 @@ body{
 }
 
 .container {
-      width: 500px;
       clear: both;
   }
 
@@ -90,3 +97,78 @@ body{
       width: 90%;
       clear: both;
   }
+
+.input-group,
+.loginbuttons,
+.authbuttons {
+  margin-top: 10px;
+}
+
+.authform {
+  text-align: center;
+  button {
+    width: 10em;
+  }
+}
+
+.authbuttons button {
+  width: 12em;
+  display: inline-block;
+  font-size: 2em;
+  text-align: center;
+  // border: 1px solid #adadad;
+  &:hover {
+    border: 1px solid black;
+  }
+  img {
+  height: 150px;
+  width: 300px; 
+
+  }
+}
+
+.crewstyle{
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  
+  ul{
+    list-style-type: none;
+    text-align: center;
+  }
+  img{
+    border-radius: 100%;
+    overflow: hidden;
+  }
+}
+
+.sponsorstyle{
+  margin: 15px;
+  padding: 25px;
+  display: inline-block;
+  
+  ul{
+    list-style-type: none;
+    text-align: center;
+  }
+  img{
+
+    overflow: hidden;
+  }
+}
+
+
+.sessionstyle{
+  border: 5px green solid;
+  margin: 20px;
+  padding: 10px;
+  // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  ul{
+    list-style-type: none;
+  }
+}
+
+
+
+
+

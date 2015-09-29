@@ -1,7 +1,8 @@
 define([
   'angular',
+  'firebase', 
   'angularRoute'
-], function(angular) {
+], function(angular, firebase) {
   angular.module('MCCApp.SponsorsCtrl', ['ngRoute'])
   .config(['$routeProvider', function($routeProvider) {
 
@@ -10,7 +11,11 @@ define([
         controller: 'SponsorsCtrl'
     });
   }])
-  .controller('SponsorsCtrl', ["$scope", "$q", "$firebaseObject", "$routeParams", function($scope, $q, $firebaseObject, $routeParams) {
+  .controller('SponsorsCtrl', ["$scope", "$q", "$firebaseArray", "$routeParams", function($scope, $q, $firebaseArray, $routeParams) {
     
+     var ref = new Firebase("http://musiccitycode.firebaseio.com/Sponsors");
+
+      $scope.Sponsors = $firebaseArray(ref);
   }]);
+
 });

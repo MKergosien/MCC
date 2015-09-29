@@ -12,5 +12,9 @@ define([
   }])
   .controller('HomeCtrl', ["$scope", "$q", "$firebaseObject", "$routeParams", function($scope, $q, $firebaseObject, $routeParams) {
     
+    // $('.carousel').carousel({
+    //     interval: 5000
+    // });
+
   }]);
 });

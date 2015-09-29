@@ -1,16 +1,25 @@
 <div class="container-fluid">
   <div class="row row-eq-height">
-    <div class="col-md-4 left center">
+    <div class="col-md-4 lt center">
         <fieldset>
-          <legend><h1><strong class="title">Become A Sponsor!</strong></h1></legend>
+          <legend><h1><strong class="title center">Become A Sponsor!</strong></h1></legend>
         </fieldset>
     </div>    
 
-    <div class="col-md-8 right">
+    <div class="col-md-8 rt">
       <fieldset>
-          <legend><h1><strong class="title">2015 Sponsors!</strong></h1></legend>
-      </fieldset>    
- 
+          <legend class="title center"><h1><strong >Sponsors</strong></h1></legend>
+          <div class="sponsorstyle center" ng-repeat=" sponsor in Sponsors">
+          <ul>
+            <li><img ng-src="{{sponsor.image}}" height="250px" width= "250px"></li>
+            <li><h3>{{sponsor.level}}</h3></li>
+            <li><h4><a ng-href="{{sponsor.website}}">{{sponsor.website}}</a></h4></li>
+            
+             <li><h4><a href="https://twitter.com/{{sponsor.handle}}" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">FOLLOW</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></h4></li>
+          </ul>
+        </div>
+      </fieldset> 
     </div>
   </div>
 </div>

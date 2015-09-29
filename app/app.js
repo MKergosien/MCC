@@ -11,12 +11,14 @@ define([
   'controllers/ContactCtrl',
   'controllers/MissionCtrl',
   'controllers/CrewCtrl',
-  'controllers/GalleryCtrl'
+  'controllers/GalleryCtrl',
+  'controllers/AuthCtrl',
+  'factories/uid'
 
 
   // You must define controllers that you use for MCC here! 
 ], function(angular, angularRoute, angularFilter, angularfire, HomeCtrl, SpeakersCtrl, SessionsCtrl, SponsorsCtrl, GeekJamCtrl,
- ContactCtrl, MissionCtrl, CrewCtrl, GalleryCtrl) {
+ ContactCtrl, MissionCtrl, CrewCtrl, GalleryCtrl, AuthCtrl, uid) {
   // Declare app level module which depends on views, and components
   return angular.module('MCCApp', [
     'ngRoute',
@@ -30,9 +32,12 @@ define([
     'MCCApp.ContactCtrl',
     'MCCApp.MissionCtrl',
     'MCCApp.CrewCtrl',
-    'MCCApp.GalleryCtrl'
+    'MCCApp.GalleryCtrl',
+    'MCCApp.AuthCtrl',
+    'MCCApp.uid'
   ]).
   config(['$routeProvider', function($routeProvider) {
     $routeProvider.otherwise({redirectTo: '/'});
+
   }]);
 });
